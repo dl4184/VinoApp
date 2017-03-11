@@ -1,0 +1,24 @@
+{
+  "name": "VinoApp",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Opis aplikacije",
+  "main": "renderer.js",
+  "scripts": {
+	"start": "node renderer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/dl4184/VinoApp",
+  "author": "dl4184",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.12.1",
+    "formidable": "^1.0.17",
+    "fs": "0.0.2",
+    "parseurl": "^1.3.0"
+  }
+}
